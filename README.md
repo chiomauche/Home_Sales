@@ -20,7 +20,12 @@ I cached my temporary table home_sales.
 
 Checked if my temporary table was cached.
 
+* Using the uncached data, I ran the query that filtered out the view ratings with an average price of greater than or equal to $350,000.
+
+![Alt text](<Screenshot 2023-10-21 053308.png>)
+
 * Using the cached data, I ran the query that filtered out the view ratings with an average price of greater than or equal to $350,000. Determined the runtime and compared it to uncached runtime.
+
 ![Alt text](<Screenshot 2023-10-21 045351.png>)
 
 Partitioned by the "date_built" field on the formatted parquet home sales data.
@@ -28,6 +33,8 @@ Partitioned by the "date_built" field on the formatted parquet home sales data.
 Created a temporary table for the parquet data.
 
 * Ran the query that filtered out the view ratings with an average price of greater than or equal to $350,000. Determined the runtime and compared it to uncached runtime.
+
+![Alt text](<Screenshot 2023-10-21 052256.png>)
 
 Uncached the home_sales temporary table.
 
